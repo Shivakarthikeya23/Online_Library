@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="enter your class code"
+        android:inputType="textPersonName" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:amPmBackgroundColor="@color/green"
+        android:amPmTextColor="@color/orange"
+        android:numbersInnerTextColor="@color/white"
+        android:numbersSelectorColor="@color/white"
+        android:numbersTextColor="@color/black" />
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@color/skyBlue"
+        android:textColor="@color/white"
+        android:checked="false"
+        android:onClick="OnToggleClicked" />
+
+
+</LinearLayout>
